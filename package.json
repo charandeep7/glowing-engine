@@ -1,0 +1,30 @@
+{
+  "name": "utility",
+  "version": "1.0.0",
+  "description": "All basic to advanced utilities function",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charandeep7/glowing-engine.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "KITISH",
+    "email": "kitishkumar2003@gmail.com",
+    "url": "https://kitish-portfolio.netlify.app/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charandeep7/glowing-engine/issues"
+  },
+  "homepage": "https://github.com/charandeep7/glowing-engine#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "files": ["lib/**/*"]
+}
