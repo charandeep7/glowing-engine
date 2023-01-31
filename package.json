@@ -1,5 +1,5 @@
 {
-  "name": "kitish-utilities3",
+  "name": "glowing-engine",
   "version": "1.0.0",
   "description": "All basic to advanced utilities function",
   "main": "lib/index.js",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/charandeep7/glowing-engine.git"
   },
-  "keywords": [],
+  "keywords": ["utilities","random","maths","validity","kitish","algorithm"],
   "author": {
     "name": "KITISH",
     "email": "kitishkumar2003@gmail.com",
