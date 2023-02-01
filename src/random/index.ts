@@ -1,3 +1,5 @@
+import axios from 'axios';
+
 import { person } from './data'
 
 export function randomRGBAColor(alpha: boolean = false) {
@@ -28,3 +30,10 @@ export function randomPersonDeatils(){
 export function randomPickFromArray(mixed: any[]){
     return mixed[randomNumberInRange(0,mixed.length-1)]
 }
+
+export async function randomAdvice(){
+    const URL = 'https://api.adviceslip.com/advice'
+    const fetchAdvice = async (URL: string) => await (await axios.get(URL)).data
+    return fetchAdvice(URL).then(data => data?.slip?.advice).catch(e => 'Something went wrong! Please report it')
+}
+

@@ -12,7 +12,15 @@
     "type": "git",
     "url": "git+https://github.com/charandeep7/glowing-engine.git"
   },
-  "keywords": ["utilities","random","maths","validity","kitish","algorithm"],
+  "keywords": [
+    "utilities",
+    "random",
+    "maths",
+    "validity",
+    "kitish",
+    "algorithm",
+    "math"
+  ],
   "author": {
     "name": "KITISH",
     "email": "kitishkumar2003@gmail.com",
@@ -26,5 +34,10 @@
   "devDependencies": {
     "typescript": "^4.9.5"
   },
-  "files": ["lib/**/*"]
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "axios": "^1.3.0"
+  }
 }
