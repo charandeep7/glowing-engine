@@ -1,3 +1,7 @@
+export const PI: Number = 3.141592653589793
+export const E: Number = 2.718281828459045
+export const TAU: Number =  6.283185307179586
+
 export function evaluateExpression(expression: string) {
     try {
         return eval(expression)
@@ -77,4 +81,14 @@ export function factorial(n: number){
             ans *= i
         return ans
     }
+}
+
+export function nCr(n: number,r: number){
+    if(r > n) return 'r must be less than n'
+    return (factorial(n) / (factorial(n-r) * factorial(r)))
+}
+
+export function nPr(n: number,r: number){
+    if(r > n) return 'r must be less than n'
+    return (factorial(n) / factorial(n-r))
 }

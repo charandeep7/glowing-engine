@@ -37,3 +37,4 @@ export async function randomAdvice(){
     return fetchAdvice(URL).then(data => data?.slip?.advice).catch(e => 'Something went wrong! Please report it')
 }
 
+
