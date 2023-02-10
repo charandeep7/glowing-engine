@@ -84,11 +84,13 @@ export function factorial(n: number){
 }
 
 export function nCr(n: number,r: number){
+    if(n < 0 || r < 0) return 'negative values are not allowed'
     if(r > n) return 'r must be less than n'
     return (factorial(n) / (factorial(n-r) * factorial(r)))
 }
 
 export function nPr(n: number,r: number){
+    if(n < 0 || r < 0) return 'negative values are not allowed'
     if(r > n) return 'r must be less than n'
     return (factorial(n) / factorial(n-r))
 }
